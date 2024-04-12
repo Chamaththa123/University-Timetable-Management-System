@@ -57,7 +57,7 @@ export const Notifications = () => {
                     <div class="container right">
                       <div className="content  text-sm">
                         <div>
-                          <span>{notif.message}</span>
+                          <span className='text-[17px]'>{notif.message}</span>
                           <br/>
                           <span>{formatTimestamp(notif.timestamp)}</span>
                         </div>
